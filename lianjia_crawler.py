@@ -157,7 +157,7 @@ def save_data(data,filename):
 
 def main():
     # cq,cs,nj,dl,wh,cc
-    city_list = ['nj']
+    city_list = ['bj']
     for city in city_list:
         page_url_list = get_list_page_url(city)
 
